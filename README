@@ -1,0 +1,17 @@
+                     The Python BTPD Client Module
+                               README
+                           btpy version 0.1
+
+
+Introduction:
+
+btpy is a python module designed to allow easier development of client software for btpd. btpd is a deamon that allows for sharing and downloading files over the bittorrent protocol.
+
+Usage:
+
+btpd needs to be started before btpy tries to send any commands. The Client object in btpy accepts one argument which specifies a new $BTPD_HOME where all torrent information is stored (default $HOME/.btpd)
+
+Help:
+
+btpy.py includes the majority of usage documentation needed. It is also one of the easier places to find information on the socket protocal however it's not complete.
+For further help email <btpd@gnoms.org> or view the btpd project page https://github.com/btpd/btpd
